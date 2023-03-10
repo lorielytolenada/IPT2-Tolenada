@@ -33,6 +33,11 @@ body, html{
 
 }
 
+.topnav a.reg:hover{
+    background-color: #99B898;
+    color:white;
+}
+
 .topnav a.active{
     text-shadow: 0 0 0.5em #2A363B;
     color: white;
