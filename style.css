@@ -103,7 +103,51 @@ body, html{
     width: 100%;
 }
 
-    .wrapper {
+div.videotext{
+    text-align: center;
+    position: relative;
+    font-family: 'Montserrat',Arial, Helvetica, sans-serif;
+    font-size: calc(20px + 1w);
+    font-weight: 700;
+    color:#E0F2EC;
+    text-shadow: 0 0 0.15 #285D63;
+    user-select: none;
+    white-space: nowrap;
+    filter:blur(0.007em);
+    animation: shake 5s linear forwards;
+    border:0.5px solid #2A363B;
+    margin-top: 5px;
+    box-shadow: 3px 3px 3px #2A363B;
+    -webkit-box-shadow: 3px 3px 3px #2A363B;
+    -moz-box-shadow:3px 3px 3px #2A363B;
+    -o-box-shadow:3px 3px 3px #2A363B;
+}
+
+div.text-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+h1{
+    text-align: center;
+    position: relative;
+    font-family:'Montserrat',Arial, Helvetica, sans-serif ;
+    font-size: calc(20px + 5vw);
+    font-weight:700;
+    color: #fff;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    text-shadow: 0 0 0.15em #2A363B;
+    user-select: none;
+    white-space: nowrap;
+    filter: blur(0.007em);
+    animation: shake 2 linear forwards;
+    animation-iteration-count: infinite;
+}
+
+ .wrapper {
         display: flex;
         align-items: center;
         justify-content: center;
